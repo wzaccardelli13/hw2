@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="mt:p-16 p-16 font-extrabold text-center text-blue-800 text-4xl">
+        <h1>Zacca Spice Store - Welcome to our Online Store!</h1>
+    </div>
+
+    <div class="mt:p-16 p-4 text-left">
+        <P span class="p-4">Shop our full inventory of spices from the convience of your home.</P>
+    
+        <p span class="p-4">Here are some helpful guidelines before you get shopping:</p>
+        <div class="pl-16"><o1>
+            <li>Buy small quantities. Large budget packs seem cheaper, but it’s a false savings if you end up with stale ingredients that you need to throw away.</li>
+            <li>Spices don’t have to be kept in the dark, but do avoid direct sunlight and store in a cool, dry part of the kitchen. Heat and light break down all-important oils, affect the flavor and also degrade the antioxidants.</li>
+            <li>The easiest way to tell if a spice is still potent is to have a sniff. If it’s pleasant and pungent, it’s OK to use. </li>
+            <li>The best way to buy spices is to get them whole, then grind them as needed—the flavor and aroma of whole spices tend to be more stable. You can use a mortar and pestle or a spice/coffee grinder for this.</li>
+        </o1></div>
+    </div>
+
+    <div class="mt-4 sm:flex md:space-x-4">
+        <div class="md:w-1/3 pl-8">
+            <div class="space-y-4 md:mt-0 mt-8">
+                <h2 class="font-bold underline text-2xl">Cinnamon</h2>
+                <p><img src="Images/Cinnamon.jpg"></p>
+                <p class="pt-5">Cinnamon is used mainly as an aromatic condiment and flavouring additive in a wide variety of cuisines, sweet and savoury dishes, breakfast cereals, snackfoods, tea and traditional foods</p>
+                <p><strong>$6.50</strong> for 12 ounces</p>
+            </div>
+        </div>
+
+        <div class="md:w-1/3">
+            <div class="space-y-4 md:mt-0 mt-8">
+                <h2 class="font-bold underline text-2xl">Salt</h2>
+                <p><img src="Images/Salt2.jpg"></p>
+                <p>You know what salt is...</p>
+                <p><strong>$3.00</strong> for 16 ounces</p>
+            </div>
+        </div>     
+
+
+        <div class="md:w-1/3 pr-8">
+            <div class="space-y-4 md:mt-0 mt-8">
+                <h2 class="font-bold underline text-2xl">Pepper</h2>
+                <p><img src="Images/Pepper.jfif"></p>
+                <p class="pt-2">Black pepper is a flowering vine in the family Piperaceae, cultivated for its fruit, known as a peppercorn, which is usually dried and used as a spice and seasoning.</p>
+                <p><strong>$5.00</strong> for 20 ounces</p>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="my-16 font-bold text-4xl text-center">Ready to Order?</h1>
+    <form netlify class="pl-8"> 
+      <label class="block mt-4 font-bold" for="name">Your name</label>
+      <input class="p-2 w-1/4 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-blue-500
+      focus:border-purple-500" type="text" id="name" name="name">
+
+      <label class="block mt-4 font-bold" for="email">Your email</label>
+      <input class="p-2 w-1/4 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-blue-500
+      focus:border-purple-500" type="text" id="email" name="email">
+    
+      <label class="block mt-4 font-bold" for="order">What would you like to order?</label>
+      <textarea rows="6" class="p-2 w-1/2 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-blue-500
+      focus:border-purple-500" id="order" name="order"></textarea>
+    
+      <button class="block mt-4 text-white font-extrabold bg-blue-400 rounded px-4 py-2">Submit form!</button>
+    </form>
+
+<div><p class="p-8">Click here to go back to the <a href="index.html"><span class="text-blue-400 underline">homepage</span></a></p></div>
+
+</body>
+</html>
